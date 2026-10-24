@@ -1,0 +1,28 @@
+import type { GymClass } from "../types";
+
+export const gymClasses: GymClass[] = [
+  { id: "mon-str", name: "Strength Training", trainer: "Alex Morgan", day: "Monday", time: "6:00 AM", duration: "60 min", difficulty: "Intermediate", slots: 6, totalSlots: 16 },
+  { id: "mon-hiit", name: "HIIT", trainer: "Sarah Williams", day: "Monday", time: "8:00 AM", duration: "45 min", difficulty: "Advanced", slots: 4, totalSlots: 14 },
+  { id: "mon-cf", name: "CrossFit", trainer: "Daniel Carter", day: "Monday", time: "6:00 PM", duration: "60 min", difficulty: "Advanced", slots: 5, totalSlots: 12 },
+  { id: "mon-yoga", name: "Yoga", trainer: "Emma Johnson", day: "Monday", time: "7:30 PM", duration: "50 min", difficulty: "Beginner", slots: 9, totalSlots: 18 },
+  { id: "tue-func", name: "Functional Training", trainer: "Daniel Carter", day: "Tuesday", time: "6:30 AM", duration: "55 min", difficulty: "Intermediate", slots: 7, totalSlots: 14 },
+  { id: "tue-cardio", name: "Cardio", trainer: "Sarah Williams", day: "Tuesday", time: "7:00 AM", duration: "45 min", difficulty: "Beginner", slots: 10, totalSlots: 16 },
+  { id: "tue-str", name: "Strength Training", trainer: "Alex Morgan", day: "Tuesday", time: "6:00 PM", duration: "60 min", difficulty: "Intermediate", slots: 3, totalSlots: 16 },
+  { id: "tue-yoga", name: "Yoga", trainer: "Emma Johnson", day: "Tuesday", time: "7:30 PM", duration: "50 min", difficulty: "Beginner", slots: 8, totalSlots: 18 },
+  { id: "wed-hiit", name: "HIIT", trainer: "Sarah Williams", day: "Wednesday", time: "6:00 AM", duration: "45 min", difficulty: "Advanced", slots: 5, totalSlots: 14 },
+  { id: "wed-str", name: "Strength Training", trainer: "Rohan Mehta", day: "Wednesday", time: "9:00 AM", duration: "60 min", difficulty: "Beginner", slots: 11, totalSlots: 16 },
+  { id: "wed-cf", name: "CrossFit", trainer: "Daniel Carter", day: "Wednesday", time: "6:30 PM", duration: "60 min", difficulty: "Advanced", slots: 2, totalSlots: 12 },
+  { id: "wed-func", name: "Functional Training", trainer: "Rohan Mehta", day: "Wednesday", time: "7:30 PM", duration: "55 min", difficulty: "Intermediate", slots: 6, totalSlots: 14 },
+  { id: "thu-cardio", name: "Cardio", trainer: "Priya Nair", day: "Thursday", time: "6:00 AM", duration: "45 min", difficulty: "Beginner", slots: 12, totalSlots: 16 },
+  { id: "thu-str", name: "Strength Training", trainer: "Alex Morgan", day: "Thursday", time: "7:00 AM", duration: "60 min", difficulty: "Intermediate", slots: 4, totalSlots: 16 },
+  { id: "thu-hiit", name: "HIIT", trainer: "Sarah Williams", day: "Thursday", time: "6:00 PM", duration: "45 min", difficulty: "Advanced", slots: 6, totalSlots: 14 },
+  { id: "thu-yoga", name: "Yoga", trainer: "Emma Johnson", day: "Thursday", time: "7:45 PM", duration: "50 min", difficulty: "Beginner", slots: 10, totalSlots: 18 },
+  { id: "fri-func", name: "Functional Training", trainer: "Daniel Carter", day: "Friday", time: "6:00 AM", duration: "55 min", difficulty: "Intermediate", slots: 8, totalSlots: 14 },
+  { id: "fri-cf", name: "CrossFit", trainer: "Alex Morgan", day: "Friday", time: "6:00 PM", duration: "60 min", difficulty: "Advanced", slots: 3, totalSlots: 12 },
+  { id: "fri-yoga", name: "Yoga", trainer: "Emma Johnson", day: "Friday", time: "7:30 PM", duration: "50 min", difficulty: "Beginner", slots: 7, totalSlots: 18 },
+  { id: "sat-str", name: "Strength Training", trainer: "Rohan Mehta", day: "Saturday", time: "7:00 AM", duration: "60 min", difficulty: "Beginner", slots: 9, totalSlots: 16 },
+  { id: "sat-hiit", name: "HIIT", trainer: "Sarah Williams", day: "Saturday", time: "8:30 AM", duration: "45 min", difficulty: "Intermediate", slots: 5, totalSlots: 14 },
+  { id: "sat-func", name: "Functional Training", trainer: "Daniel Carter", day: "Saturday", time: "10:00 AM", duration: "55 min", difficulty: "Intermediate", slots: 6, totalSlots: 14 },
+  { id: "sun-yoga", name: "Yoga", trainer: "Emma Johnson", day: "Sunday", time: "8:00 AM", duration: "60 min", difficulty: "Beginner", slots: 14, totalSlots: 18 },
+  { id: "sun-cardio", name: "Cardio", trainer: "Priya Nair", day: "Sunday", time: "9:30 AM", duration: "45 min", difficulty: "Beginner", slots: 11, totalSlots: 16 },
+];
