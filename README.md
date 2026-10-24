@@ -77,4 +77,4 @@ It is a demonstration project, not a claim of completed work for a real gym clie
 **Babita Sahu**
 
 - GitHub: [Your GitHub Profile URL](https://github.com/babita010203)
-- Live Demo: [View Website](fitness-website-2026.vercel.app)
+- Live Demo: [View Website](https://fitness-website-2026.vercel.app)
