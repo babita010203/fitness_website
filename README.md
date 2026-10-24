@@ -4,7 +4,7 @@ A modern, responsive gym website built to showcase fitness facilities, membershi
 
 ## Live Demo
 
-🔗 Live Website: [fitness-website-2026.vercel.app]
+🔗 Live Website: [https://fitness-website-2026.vercel.app/]
 
 ## Features
 
